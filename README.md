@@ -26,3 +26,16 @@ With Weggli-Py integrated into weggli, you can now run the tool using the follow
 1. python weggli_py.py --patterns patterns.json --codebase /path/to/codebase
 
 2. Replace /path/to/codebase with the path to the C/C++ codebase you wish to scan.
+
+
+### License
+Weggli-Py is licensed under the MIT License. See the LICENSE file for details.
+
+### Acknowledgments
+Weggli-Py is built upon weggli, developed by Google Project Zero. We thank them for their contributions to the security community and for providing a robust foundation for further development.
+
+### Future Work
+Future enhancements include parallel execution, an interactive results interface, IDE integration, an expanded vulnerability database, and customizable reporting.
+
+### Disclaimer
+Weggli-Py is an independent project and is not affiliated with Google or Google Project Zero.
