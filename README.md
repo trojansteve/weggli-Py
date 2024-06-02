@@ -37,5 +37,14 @@ Weggli-Py is built upon weggli, developed by Google Project Zero. We thank them 
 ### Future Work
 Future enhancements include additional patterns for other classes of vulnerabilitites, parallel execution, an interactive results interface, IDE integration, an expanded vulnerability database, and customizable reporting.
 
+### References
+https://github.com/weggli-rs/weggli
+https://dustri.org/b/playing-with-weggli.html
+https://github.com/plowsec/weggli-patterns
+https://github.com/synacktiv/Weggli_rules_SSTIC2023
+https://twitter.com/richinseattle/status/1729654184633327720
+https://github.com/0xdea/weggli-patterns
+
+
 ### Disclaimer
 Weggli-Py is an independent project and is not affiliated with Google or Google Project Zero.
