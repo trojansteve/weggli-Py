@@ -44,7 +44,7 @@ https://github.com/plowsec/weggli-patterns
 https://github.com/synacktiv/Weggli_rules_SSTIC2023
 https://twitter.com/richinseattle/status/1729654184633327720
 https://github.com/0xdea/weggli-patterns
-
+https://security.humanativaspa.it/a-collection-of-weggli-patterns-for-c-cpp-vulnerability-research
 
 ### Disclaimer
 Weggli-Py is an independent project and is not affiliated with Google or Google Project Zero.
