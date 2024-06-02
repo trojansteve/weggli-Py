@@ -35,7 +35,7 @@ Weggli-Py is licensed under the MIT License. See the LICENSE file for details.
 Weggli-Py is built upon weggli, developed by Google Project Zero. We thank them for their contributions to the security community and for providing a robust foundation for further development.
 
 ### Future Work
-Future enhancements include parallel execution, an interactive results interface, IDE integration, an expanded vulnerability database, and customizable reporting.
+Future enhancements include additional patterns for other classes of vulnerabilitites, parallel execution, an interactive results interface, IDE integration, an expanded vulnerability database, and customizable reporting.
 
 ### Disclaimer
 Weggli-Py is an independent project and is not affiliated with Google or Google Project Zero.
