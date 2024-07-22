@@ -8,6 +8,12 @@ Weggli-Py is a Python-based interface designed to automate and enhance the scann
 - **Enhanced Output Formatting**: Color-coded and structured output for easy interpretation of findings.
 - **Logging Capability**: Scan results are logged to a file for permanent record-keeping.
 - **User-Friendly Interface**: Command-line interface with clear instructions for users of all technical levels.
+- **Configurable Logging Levels**: The script accepts a --log-level argument to set the logging level.
+- **Summary Report**: The write_summary_report function writes a summary report detailing the number of issues found per category.
+- **Custom Output Directory**: The --output-dir argument allows specifying where to save the log file and summary report.
+- **Parallel Execution**: The script uses ThreadPoolExecutor for parallel execution of weggli commands.
+- **Enhanced Error Handling**: The run_weggli_command function provides detailed error messages.
+- **Verbose Mode**: The --verbose flag enables more detailed console output for debugging.
 
 ## Getting Started
 
@@ -23,7 +29,7 @@ Before installing Weggli-Py, you must have weggli installed and built on your sy
 ### Usage
 With Weggli-Py integrated into weggli, you can now run the tool using the following command:
 
-1. python weggli_py.py --patterns patterns.json --codebase /path/to/codebase
+1. python weggli_py.py patterns.json /path/to/codebase --log-level INFO --output-dir /path/to/output --verbose
 
 2. Replace /path/to/codebase with the path to the C/C++ codebase you wish to scan.
 
